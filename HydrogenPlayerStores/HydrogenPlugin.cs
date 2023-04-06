@@ -12,7 +12,6 @@ namespace HydrogenPlayerStores
         {
             base.Init(torch);
             var sessionManager = Torch.Managers.GetManager<TorchSessionManager>();
-            sessionManager.AddOverrideMod(2493525535L);
         }
     }
 }
